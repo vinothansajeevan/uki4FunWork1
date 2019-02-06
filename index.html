@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JU TUNES</title>
+	<link rel="icon" href="images/21.png" type="image/png">
+	<script src="js/jquery-1.11.1.min.js"></script>
+<script src="https://connect.soundcloud.com/sdk.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="script.js"></script>
+	
+	<link href="bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- <link href="style.css" rel="stylesheet" type="text/css" media="all" /> -->
+	<link rel="stylesheet" type="text/css" href="component.css" />
+	<script src="js/modernizr.custom.js"></script>
+
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Music template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-center">
+
+						<!-- Logo -->
+						<div class="logo">
+							<a href="#" class="d-flex flex-row align-items-end justify-content-start">
+								<span class="logo_bars d-flex flex-row align-items-end justify-content-between"><span></span><span></span><span></span><span></span><span></span></span>
+								<span class="logo_text">JU TUNES</span>
+							</a>
+						</div>
+
+						<!-- Main Navigation -->
+						<nav class="main_nav">
+							<ul class="d-flex flex-row align-items-center justify-content-start">
+								<li class="active"><a href="index.html">HOME</a></li>
+								<li><a href="artists.html">JU TRENDING</a></li>
+							</ul>
+						</nav>
+
+						<!-- User area -->
+						<div class="log_reg d-flex flex-row align-items-center justify-content-start">
+
+							<!-- Hamburger -->
+							<div class="hamburger d-flex flex-column align-items-end justify-content-between"><div></div><div></div><div></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div class="home">
+
+		<!-- Home Slider -->
+
+				<!-- Slide -->
+				<div class="slide">
+					<div class="background_image" style="background-image:url(images/index.jpg)"></div>
+					<div class="home_container">
+							<div class="row">
+								<div class="col">
+									<div class="home_content">
+										<div class="home_title_container text-center">
+											<div class="home_title islive text-center"><h1>JU <span>TUNES</span></h1></div>
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Home Slider Navigation -->
+
+			<!-- Home Social -->
+			<div class="home_social">
+				<div class="d-flex flex-row align-items-center justify-content-start">
+					<div class="home_social_text">follow</div>
+					<div class="home_social_list">
+						<ul class="d-flex flex-row align-items-center justify-content-start">
+							<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Scroll Down -->
+			<div class="scroll_down scroll_down_link" data-scroll-to=".tours">
+				<a href="#"></a>
+				<div class="d-flex flex-row align-items-center justify-content-start">
+
+					<div class="scroll_arrows d-flex flex-column align-items-start justify-content-start">
+						<img src="images/arrow_down.png" alt="">
+						<img src="images/arrow_down.png" alt="">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Song -->
+<br>
+<br>
+<br>
+<br>
+	<div class="song">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/song.jpg" data-speed="0.8"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="song_content">
+
+						<!-- Player -->
+						<div class="single_player_container">
+							<div class="jp-jplayer jplayer" data-title="Dubstep" data-artist="Bensound" data-ancestor=".jp_container_2" data-url="files/omg.mp3"></div>
+							<div class="single_player d-flex flex-row align-items-center justify-content-start">
+								<div id="jplayer_1" class="jp-jplayer"></div>
+								<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+									<div class="jp-gui jp-interface d-flex flex-lg-row flex-column align-items-start justify-content-start">
+
+										<!-- Player Controls -->
+										<div class="player_controls_box d-flex flex-row align-items-start justify-content-start">
+											<div class="order-lg-1 order-2">
+												<div class="player_title">WELCOME TO JU TUNES</div>
+												<div class="jp-controls-holder player_controls ml-auto d-flex flex-row align-items-start justify-content-start">
+													<button class="jp-play player_button" tabindex="0"></button>
+													<button class="jp-stop player_button" tabindex="0"></button>
+												</div>
+											</div>
+											<div class="song_image ml-lg-auto order-lg-2 order-1"><img src="images/song1.jpg" alt=""></div>
+										</div>
+
+										<!-- Progress Bar -->
+										<div class="player_bars d-flex flex-row align-items-start justify-content-start">
+											<div class="player_progress_box">
+												<div class="jp-current-time" role="timer" aria-label="time">00:00</div>
+												<div class="song_info">
+													<div class="jp-artist" aria-label="title">JU <b>BGM</b></div>
+													<div class="jp-title" aria-label="title">Listen carefull !!</div>
+												</div>
+												<div class="jp-progress">
+													<div class="jp-seek-bar">
+														<div>
+															<div class="jp-play-bar"><span></span></div>
+														</div>
+													</div>
+												</div>
+												<div class="jp-duration ml-auto" role="timer" aria-label="duration">02:33</div>
+											</div>
+
+											<!-- Volume Controls -->
+											<div class="jp-volume-controls ml-lg-auto">
+												<div class="mute_button">
+													<button class="jp-mute" tabindex="0"></button>
+												</div>
+												<div class="d-flex flex-row align-items-center justify-content-start">
+													<div class="jp-volume-bar">
+														<div>
+															<div class="jp-volume-bar-value"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+									<div class="jp-no-solution">
+										<span>Update Required</span>
+										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="panel panel-default">
+
+		<br>
+		<br>
+		<div class="section_title text-center"><h1>Tamil New Hits</h1></div>
+		<br>
+
+	<i class="pull-right glyphicon"></i>
+	</div>
+	<div class="swiper-slide" style="background: url(sajee.jpg) ">
+
+	<ul class="grid cs-style-1">
+
+	<li>
+<br>
+
+		<figure>
+		<img class="img-thumbnail img-circle" src="images/01.jpg" alt="img02">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+
+					</div>
+
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+				</div>
+
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Oxigen thanthale <br>Music - Hip hop Aadhi<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop">STOP</span></h5>
+
+		</figure>
+	</li>
+
+
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/02.jpg" alt="img03">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Ei Sandakara <br>Music - Santhos narayanan<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start1">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop1">STOP</span></h5>
+		</figure>
+	</li>
+
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/03.jpg" alt="img06">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Neeum naanum anbe <br>Music - Hip Hop Aadhi<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start2">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop2">STOP</span></h5>
+		</figure>
+	</li>
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/04.jpg" alt="img04">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Moongil Thoddam <br>Music - A.R.Rahman<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start3">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop3">STOP</span></h5>
+		</figure>
+	</li>
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/05.jpg" alt="img05">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Konji Pesida Venaam <br>Music - Nivas K Pirasanna<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start4">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop4">STOP</span></h5>
+		</figure>
+	</li>
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/06.jpg" alt="img01">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Pakkam Vanthu <br>Music - Aniruth<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start5">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop5">STOP</span></h5>
+		</figure>
+	</li>
+
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/07.jpg" alt="img01">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Tasakku Tasakku <br>Music - Sam.c.s<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start6">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop6">STOP</span></h5>
+		</figure>
+	</li>
+
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/08.jpg" alt="img01">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Kannalaa kannalaa <br>Music - Hip hop Aadhi<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start7">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop7">STOP</span></h5>
+
+		</figure>
+	</li>
+
+	<li>
+		<figure>
+			<img class="img-thumbnail img-circle" src="images/09.jpg" alt="img01">
+			<figcaption>
+				<div class="row">
+					<div class="col-sm-4">
+					</div>
+					<div class="col-sm-4">
+
+					</div>
+					<div class="col-sm-4">
+					</div>
+				</div>
+			</figcaption>
+			<h4 class="btn btn-Link btn-sm details "><strong>Song - Onna Pola Oruthana <br>Music - D.imman<strong></h4></center>
+			 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start8">PLAY</span>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+			<span class="btn btn-lg btn-danger" id="stop8">STOP</span></h5>
+		</figure>
+	</li>
+
+							<li>
+								<figure>
+									<img class="img-thumbnail img-circle" src="images/10.jpg" alt="img01">
+									<figcaption>
+										<div class="row">
+											<div class="col-sm-4">
+											</div>
+											<div class="col-sm-4">
+
+											</div>
+											<div class="col-sm-4">
+											</div>
+										</div>
+									</figcaption>
+									<h4 class="btn btn-Link btn-sm details "><strong>Song - Malaikulle <br>Music - Sam.C.S<strong></h4></center>
+									 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start9">PLAY</span>
+										&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+									<span class="btn btn-lg btn-danger" id="stop9">STOP</span></h5>
+
+								</figure>
+							</li>
+
+													<li>
+														<figure>
+															<img class="img-thumbnail img-circle" src="images/11.jpg" alt="img01">
+															<figcaption>
+																<div class="row">
+																	<div class="col-sm-4">
+																	</div>
+																	<div class="col-sm-4">
+
+																	</div>
+																	<div class="col-sm-4">
+																	</div>
+																</div>
+															</figcaption>
+															<h4 class="btn btn-Link btn-sm details "><strong>Song - Iyaiyo <br>Music - Yuvan Shankar Rajah<strong></h4></center>
+															 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start10">PLAY</span>
+																&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+															<span class="btn btn-lg btn-danger" id="stop10">STOP</span></h5>
+														</figure>
+													</li>
+
+																			<li>
+																				<figure>
+																					<img class="img-thumbnail img-circle" src="images/12.jpg" alt="img01">
+																					<figcaption>
+																						<div class="row">
+																							<div class="col-sm-4">
+																							</div>
+																							<div class="col-sm-4">
+
+																							</div>
+																							<div class="col-sm-4">
+																							</div>
+																						</div>
+																					</figcaption>
+																					<h4 class="btn btn-Link btn-sm details "><strong>Song - Ammadi Ammadi <br>Music - D.Imman<strong></h4></center>
+																					 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start11">PLAY</span>
+																						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																					<span class="btn btn-lg btn-danger" id="stop11">STOP</span></h5>
+																				</figure>
+																			</li>
+																			<li>
+																				<figure>
+																					<img class="img-thumbnail img-circle" src="images/13.jpg" alt="img01">
+																					<figcaption>
+																						<div class="row">
+																							<div class="col-sm-4">
+																							</div>
+																							<div class="col-sm-4">
+
+																							</div>
+																							<div class="col-sm-4">
+																							</div>
+																						</div>
+																					</figcaption>
+																					<h4 class="btn btn-Link btn-sm details "><strong>Song - Enakena Yaaru Illaye <br>Music - Aniruth<strong></h4></center>
+																					 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start12">PLAY</span>
+																						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																					<span class="btn btn-lg btn-danger" id="stop12">STOP</span></h5>
+																				</figure>
+																			</li>
+																			<li>
+																				<figure>
+																					<img class="img-thumbnail img-circle" src="images/14.jpg" alt="img01">
+																					<figcaption>
+																						<div class="row">
+																							<div class="col-sm-4">
+																							</div>
+																							<div class="col-sm-4">
+
+																							</div>
+																							<div class="col-sm-4">
+																							</div>
+																						</div>
+																					</figcaption>
+																					<h4 class="btn btn-Link btn-sm details "><strong>Song - Kannana Kanne <br>Music - Aniruth<strong></h4></center>
+																					 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start13">PLAY</span>
+																						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																					<span class="btn btn-lg btn-danger" id="stop13">STOP</span></h5>
+																				</figure>
+																			</li>
+																			<li>
+																				<figure>
+																					<img class="img-thumbnail img-circle" src="images/15.jpg" alt="img01">
+																					<figcaption>
+																						<div class="row">
+																							<div class="col-sm-4">
+																							</div>
+																							<div class="col-sm-4">
+
+																							</div>
+																							<div class="col-sm-4">
+																							</div>
+																						</div>
+																					</figcaption>
+																					<h4 class="btn btn-Link btn-sm details "><strong>Song - Vaayadi Petha Pulla <br>Music -Dhibu Ninan Thomas<strong></h4></center>
+																					 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start14">PLAY</span>
+																						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																					<span class="btn btn-lg btn-danger" id="stop14">STOP</span></h5>
+																				</figure>
+																			</li>
+																			<li>
+																				<figure>
+																					<img class="img-thumbnail img-circle" src="images/16.jpg" alt="img01">
+																					<figcaption>
+																						<div class="row">
+																							<div class="col-sm-4">
+																							</div>
+																							<div class="col-sm-4">
+
+																							</div>
+																							<div class="col-sm-4">
+																							</div>
+																						</div>
+																					</figcaption>
+																					<h4 class="btn btn-Link btn-sm details "><strong>Song - High On Love <br>Music - Yuvan Shankar Rajah<strong></h4></center>
+																					 &nbsp &nbsp &nbsp<h5><span class="btn btn-lg btn-success" id="start15">PLAY</span>
+																						&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+																					<span class="btn btn-lg btn-danger" id="stop15">STOP</span></h5>
+																				</figure>
+																			</li>
+</ul>
+
+</div>
+
+	<!-- Featured -->
+	<!-- <div class="featured">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="panel panel-info ">
+						<div class="panel-heading">
+
+					<div class="section_title text-center"><h1>ENGLISH NEW HITS</h1></div>
+				</div>
+
+					<ul class="grid cs-style-1">
+
+
+					<div class="featured_list">
+						<div id="jplayer_2" class="jp-jplayer"></div>
+						<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
+							<div class="jp-type-playlist">
+								<div class="jp-playlist">
+									<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
+										<li></li>
+									</ul>
+								</div>
+								<div class="jp-no-solution">
+									<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
+	<!-- Footer -->
+
+	<!-- <footer class="footer">
+		<div class="background_image" style="background-image:url(images/footer.jpg)"></div>
+		<div class="footer_content">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+
+						<!-Logo -->
+						<!-- <div class="logo">
+							<a href="#" class="d-flex flex-row align-items-end justify-content-start">
+								<span class="logo_bars d-flex flex-row align-items-end justify-content-between"><span></span><span></span><span></span><span></span><span></span></span>
+								<span class="logo_text">JU TUNES</span>
+							</a>
+						</div> -->
+
+						<!-- Footer Social -->
+						<!-- <div class="footer_social">
+							<ul class="d-flex flex-row align-items-center justify-content-center">
+								<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+							</ul>
+						</div> -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="copyright text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | JU <i class="fa fa-music-o" aria-hidden="true">TUNES</i>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="styles/bootstrap-4.1.2/popper.js"></script>
+<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+<script src="plugins/greensock/TweenMax.min.js"></script>
+<script src="plugins/greensock/TimelineMax.min.js"></script>
+<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+<script src="plugins/greensock/animation.gsap.min.js"></script>
+<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+<script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
+<script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/progressbar/progressbar.min.js"></script>
+<script src="plugins/parallax-js-master/parallax.min.js"></script>
+<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
