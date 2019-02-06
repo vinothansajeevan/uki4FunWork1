@@ -6,7 +6,7 @@ SC.initialize({
 
 $(document).ready(function() {
   // KAVAN OX
-  SC.stream('/tracks/298622476', function(sound) {
+  SC.stream('/tracks/417489108', function(sound) {
     $('#start').click(function(e) {
       e.preventDefault();
       sound.start();
